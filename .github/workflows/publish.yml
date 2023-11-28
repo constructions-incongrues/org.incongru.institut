@@ -1,8 +1,8 @@
 name: Build and deploy to GitHub Pages
 on:
   push:
-    branches: [main] # or [main]
-  workflow_dispatch:   # run manually
+    branches: [main]
+  workflow_dispatch: {}
 
 permissions:
   contents: read
