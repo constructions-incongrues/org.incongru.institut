@@ -1,0 +1,15 @@
+{% extends '_default/page.html.twig' %}
+
+            {%- block content ~%}
+              <article>
+                <header>
+                  <h1>{{ page.title|e }}</h1>
+                  <time>{{ page.date|format_date('long') }}</time>
+                </header>
+                {{ page.content }}
+                <footer>
+                  {%- include 'partials/terms-list.html.twig' with {'page': page, 'vocabulary': 'tags'} only ~%}
+                  {%- include 'partials/page-navigation.html.twig' with {'page': page} only ~%}
+                </footer>
+              </article>
+            {%- endblock content ~%}
