@@ -1,8 +1,13 @@
 title: 'Institut National de l''Incongru'
-baseline: 'INI'
+baseline: 'Avec le soutien de la Fondation Bertier pour l''Art Contemporain'
 baseurl: 'https://institut.incongru.org'
-description: 'Site description.'
+description: 'Ici le mot "participatif" n'est pas juste un mot.'
 author:
     name: 'Constructions Incongrues'
     url: 'https://www.constructions-incongrues.net'
 image: cecil-card.png
+language: fr
+languages:
+  - code: fr
+    name: Français
+    locale: fr_FR
