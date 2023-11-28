@@ -1,0 +1,2 @@
+serve:
+	cecil serve -d

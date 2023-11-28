@@ -12,11 +12,16 @@
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8000],
-
-	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "cecil serve"
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+				"github.vscode-github-actions",
+				"mblode.twig-language",
+				"ms-vscode.makefile-tools"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
