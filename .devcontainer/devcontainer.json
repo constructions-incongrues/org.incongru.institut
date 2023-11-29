@@ -18,7 +18,8 @@
 				"GitHub.vscode-pull-request-github",
 				"github.vscode-github-actions",
 				"mblode.twig-language",
-				"ms-vscode.makefile-tools"
+				"ms-vscode.makefile-tools",
+				"moetelo.twiggy"
 			]
 		}
 	}
