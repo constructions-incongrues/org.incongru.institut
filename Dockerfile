@@ -16,5 +16,7 @@ RUN apt-get update && apt-get install -y \
     docker-php-ext-install mbstring && \
     curl -kL https://cecil.app/cecil.phar -o /usr/local/bin/cecil && chmod +x /usr/local/bin/cecil
 
+ENV CECIL_DEBUG=true
+
 ENTRYPOINT [ "cecil" ]
 CMD [ "serve" ]
